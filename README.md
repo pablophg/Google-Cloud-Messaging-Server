@@ -4,7 +4,7 @@ PHP Library that implements Google's GCM server.
 ## Sample usage:
 
 ```php
-try{
+	try{
 		$gcm = new GCMRequest("YOUR_API_KEY");
 		$gcm->setTargetDevices(array("device_1", "device_2", "device_3"));
 		$gcm->setData(array("title" => "Example title", "description" => "Example description"));
